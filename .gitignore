@@ -1,0 +1,30 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset and generated experiment artifacts
+lab/data/
+lab/models/
+lab/output/
+
+# Large model/checkpoint files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
